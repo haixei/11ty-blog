@@ -9,7 +9,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
-  --purple: #7058b4;
+  --purple: #6658b4;
   --line: #EAE4E4;
 }
 
@@ -81,7 +81,7 @@ h2{
 /* Button */
 button{
   padding: 12px 25px;
-  background-color: #edeaf1;
+  background-color: #eceaf8;
   border: none;
   border-radius: 3px;
   color: var(--purple);
@@ -103,8 +103,8 @@ button img{
 }
 
 button:hover{
-  background-color: #edeaf1;
-  border: 1px solid #c1bbd6;
+  background-color: #f3f1fd;
+  border: 1px solid #d6cff0;
 }
 
 .button-margin{
@@ -218,7 +218,7 @@ footer{
 footer span:first-of-type{
   text-transform: uppercase;
   color: #9D8F8F;
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   margin-bottom: 15px;
 }
 
@@ -302,12 +302,11 @@ code {
 
 .postlist-link{
   font-size: 1.8rem;
-  transition: opacity 0.3s;
+  transition: all 0.2s;
 }
 
 .postlist-link:hover{
-  font-style: italic;
-  opacity: 0.7;
+  color: #817bb8;
 }
 
 .postlist-item p{
@@ -467,13 +466,19 @@ textarea{
   line-height: 1.6rem;
 }
 input:focus, textarea:focus{
-  border-color: #bebebe;
+  border-color: #cec8ee;
   outline: none;
-  color: #17050F;
+  color: var(--purple);
 }
 input::placeholder, textarea::placeholder{
   color: #bebebe;
+  transition: color 0.2s;
 }
+
+input:focus::placeholder, textarea:focus::placeholder{
+  color: #c7c4e6;
+}
+
 form span{
   width: 100%;
   font-size: 0.9rem;
