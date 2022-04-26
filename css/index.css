@@ -331,6 +331,16 @@ code {
 }
 
 /* Tags */
+.tag-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag-list .post-tag{
+  margin: 0 15px 10px 0;
+}
+
 .post-tag {
   text-transform: capitalize;
   margin-left: 15px;
