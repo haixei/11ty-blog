@@ -1,0 +1,19 @@
+---
+permalink: /contact/
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Contact
+  order: 4
+---
+<h1 class="heading-no-margin">Let's have a chat.</h1>
+<p class="p-margin-bottom">Feel free to contact me if you have any questions related to the blog or the author.<br>I usually answer Mon - Fri, 8AM - 2PM.</p>
+<form data-netlify="true" name="contact" method="POST">
+    <span>Expect to hear back up to 5 business days.</span>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Ada Lovelace">
+    <label for="email">E-mail</label>
+    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message" placeholder="Hi! I'd like to speak to you about something that I call a computer.."></textarea>
+    <button type="submit">Send</button>
+</form>

@@ -425,6 +425,70 @@ code {
   opacity: 0.7;
 }
 
+.heading-no-margin{
+  margin: 50px 0 0 0;
+}
+
+.p-margin-bottom{
+  margin: 20px 0 50px 0;
+}
+
+form{
+  width: 400px;
+  height: auto;
+  padding: 25px;
+  background-color: #ffffff86;
+  border-radius: 3px;
+  border: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input, textarea{
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid var(--line);
+  font-size: 0.9rem;
+  transition: border-color 0.3s;
+  color: #8a8a8a;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea{
+  resize: none;
+  width: 100%;
+  min-height: 150px;
+  box-sizing: border-box;
+  line-height: 1.6rem;
+}
+input:focus, textarea:focus{
+  border-color: #bebebe;
+  outline: none;
+  color: #17050F;
+}
+input::placeholder, textarea::placeholder{
+  color: #bebebe;
+}
+form span{
+  width: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--line);
+  color: #777777;
+}
+label{
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  color: #303030;
+}
+
+
 @media (max-width: 1300px) {
   html, body{
     max-width: 80%;
