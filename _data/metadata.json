@@ -1,0 +1,21 @@
+{
+  "title": "Tea Required - Everything on tech, tea & more.",
+  "url": "https://tearequired.com/",
+  "language": "en",
+  "description": "I write about my journey as a developer as well as news from the tech world. My tutorials surround topics like back-end, databases and writing a decent documentation. Visit the blog and learn how to make good enough software along with me.",
+  "feed": {
+    "subtitle": "I write about my journey as a developer as well as news from the tech world. My tutorials surround topics like back-end, databases and writing a decent documentation. Visit the blog and learn how to make good enough software along with me.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://tearequired.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://tearequired.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Aleksandra Osuch",
+    "email": "aleksandraosuch.work@gmail.com",
+    "url": "https://tearequired.com/about/"
+  }
+}

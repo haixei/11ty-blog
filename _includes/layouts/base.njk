@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-duotone-dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <meta name="theme-color" content="#E8E4FA">
+    <meta property="og:image" content="https://i.imgur.com/OOVbK7e.png"/>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="{{ '/' | url }}" class="logo"><img src="/img/icons/logo.svg">Tea Required</a>
+        <a href="https://www.buymeacoffee.com/haixei" target="_blank"><button><img src="/img/icons/tea.svg">Buy me a tea</button></a>
+      </div>
+
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+      <nav>
+        <div class="author">
+          <div class="author__avatar"></div>
+          <span>by Aleksandra Osuch</span>
+          <a href="#"><img src="/img/icons/github.svg"></a>
+          <a href="#"><img src="/img/icons/twitter.svg"></a>
+        </div>
+
+        <ul class="nav">
+        {%- for entry in collections.all | eleventyNavigation %}
+          <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        {%- endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <span>All rights reserved &copy; 2022 Aleksandra Julia Osuch</span>
+      <span><a href="/contact">Contact me</a> or <a href="/about">read more about the website</a></span>
+    </footer>
+  </body>
+</html>
