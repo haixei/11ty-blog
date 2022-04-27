@@ -78,6 +78,21 @@ h2{
   margin: 30px 0;
 }
 
+.tmpl-post img{
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 70px auto 0;
+}
+
+.tmpl-post .image-src{
+  margin: -10px auto 70px;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Baskervville", serif;
+}
+
 /* Button */
 button{
   padding: 12px 25px;
@@ -221,18 +236,14 @@ footer span:first-of-type{
   margin-bottom: 15px;
 }
 
-footer span:last-of-type a{
+.purple-link{
   color: var(--purple);
   font-style: italic;
-  font-size: 1.03rem;
   border-bottom: 1px solid var(--purple);
-}
-
-footer a{
   transition: opacity 0.2s;
 }
 
-footer a:hover{
+.purple-link:hover{
   opacity: 0.7;
 }
 
@@ -409,18 +420,6 @@ code {
   font-style: italic;
   font-family: 'Barskervville', serif;
   font-size: 1.1rem;
-}
-
-.thank-you-note a{
-  color: var(--purple);
-  font-style: italic;
-  border-bottom: 1px solid var(--purple);
-  font-size: 1.1rem;
-  transition: opacity 0.2s;
-}
-
-.thank-you-note a:hover{
-  opacity: 0.7;
 }
 
 .heading-no-margin{
