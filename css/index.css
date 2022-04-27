@@ -24,7 +24,7 @@ body {
   margin: 0 auto;
   color: var(--darkgray);
   background-color: #faf7f6;
-  max-width: 70%;
+  max-width: 65%;
   color: #383838;
 }
 
@@ -73,7 +73,7 @@ h2{
 }
 
 .tmpl-post p{
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.8rem;
   margin: 30px 0;
 }
@@ -163,8 +163,7 @@ header a, header span{
 }
 
 .logo{
-  font-style: italic;
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   display: flex;
   flex-direction: row;
   align-items: center;
