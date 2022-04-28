@@ -1,5 +1,5 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Inter:wght@400;600&display=swap');
 
 /* Colors */
 :root {
@@ -29,7 +29,7 @@ body {
 }
 
 
-button, textarea, input, body{
+button, textarea, input, body, nav a, nav span{
   font-family: 'Inter', -apple-system, system-ui, sans-serif;
 }
 
@@ -61,7 +61,7 @@ h1, h2, h3{
 }
 
 a, h1, h2, h3, .tmpl-post .image-src, header, .logo, .postlist-link, .thank-you-note{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Lora', serif;
 }
 
 h1{
@@ -175,11 +175,11 @@ ul li:hover{
 }
 
 header a, header span{
-  font-size: 1.03rem;
+  font-size: 0.9rem;
 }
 
 .logo{
-  font-size: 1.22rem;
+  font-size: 1.04rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -279,7 +279,6 @@ code {
 
 /* Nav */
 .nav-item-active {
-  font-style: italic;
   position: relative;
 }
 
@@ -312,7 +311,8 @@ code {
 }
 
 .postlist-link{
-  font-size: 1.85rem;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   transition: all 0.2s;
   font-weight: 300;
 }
@@ -328,7 +328,7 @@ code {
 }
 
 .postlist-item .post-info a, time{
-  font-size: 0.75rem;
+  font-size: 0.81rem;
 }
 
 .postlist-item time{
@@ -358,9 +358,13 @@ code {
   padding: 5px 10px;
   border: 1px solid var(--line);
   border-radius: 3px;
-  font-size: 0.75rem;
   font-family: 'Inter', sans-serif;
   transition: all 0.2s;
+  color: #9D8F8F;
+  font-size: 0.82rem;
+}
+
+time{
   color: #9D8F8F;
 }
 
