@@ -98,7 +98,7 @@ h2{
 /* Button */
 button{
   padding: 12px 25px;
-  background-color: #eceaf8;
+  background-color: #eaeaf8;
   border: none;
   border-radius: 3px;
   color: var(--purple);
@@ -321,7 +321,7 @@ code {
 }
 
 .postlist-link:hover{
-  color: #817bb8;
+  color: #7b7cb8;
 }
 
 .postlist-item p{
