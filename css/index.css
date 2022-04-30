@@ -65,7 +65,7 @@ a, h1, h2, h3, .tmpl-post .image-src, header, .logo, .postlist-link, .thank-you-
 }
 
 h1{
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   line-height: 2.5rem;
   font-weight: 300;
   margin: 40px 0;
@@ -243,7 +243,6 @@ footer span:first-of-type{
 
 .purple-link{
   color: var(--purple);
-  font-style: italic;
   border-bottom: 1px solid var(--purple);
   transition: opacity 0.2s;
 }
@@ -427,8 +426,7 @@ time{
 }
 
 .thank-you-note{
-  font-style: italic;
-  font-size: 1.2rem!important;
+  font-size: 1.1rem!important;
 }
 
 .heading-no-margin{
