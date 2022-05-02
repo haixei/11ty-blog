@@ -105,7 +105,7 @@ button{
   color: #fff;
   font-weight: 400;
   font-size: 0.78rem;
-  transition: all 0.2s;
+  transition: background-color 0.2s;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -197,7 +197,7 @@ header a, header span{
 .author a img{
   filter: brightness(0.1);
   opacity: 0.8;
-  transition: all 0.2s;
+  transition: filter 0.2s, opacity 0.2s;
   width: 12px;
 }
 
@@ -317,7 +317,7 @@ code {
 .postlist-link{
   font-size: 1.4rem;
   line-height: 1.8rem;
-  transition: all 0.2s;
+  transition: color 0.2s;
   font-weight: 300;
 }
 
@@ -364,7 +364,7 @@ code {
   border: 1px solid var(--line);
   border-radius: 3px;
   font-family: 'Inter', sans-serif;
-  transition: all 0.2s;
+  transition: color 0.2s, border-color 0.2s;
   color: #9D8F8F;
   font-size: 0.82rem;
 }
