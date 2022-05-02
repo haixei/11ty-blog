@@ -10,7 +10,7 @@
   --blue: #082840;
   --white: #fff;
   --purple: #6658b4;
-  --line: #EAE4E4;
+  --line: #ebe0df;
 }
 
 /* Global stylesheet */
@@ -45,7 +45,7 @@ p,
 p{
   color: #555555;
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
 }
 
 a{
@@ -79,8 +79,6 @@ h2{
 }
 
 .tmpl-post p{
-  font-size: 1.03rem;
-  line-height: 1.6rem;
   margin: 30px 0;
 }
 
@@ -128,7 +126,7 @@ button:hover{
 }
 
 .button-margin{
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 
@@ -182,7 +180,7 @@ header a, header span{
 }
 
 .logo{
-  font-size: 1rem;
+  font-size: 0.95rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,12 +232,13 @@ footer{
   margin: 120px 0 80px 0;
   display: flex;
   flex-direction: column;
+  font-size: 0.9rem;
 }
 
 footer span:first-of-type{
   text-transform: uppercase;
   color: #9D8F8F;
-  font-size: 0.83rem;
+  font-size: 0.8rem;
   margin-bottom: 15px;
 }
 
@@ -323,7 +322,7 @@ code {
 }
 
 .postlist-link:hover{
-  color: #7b7cb8;
+  color: #8070ce;
 }
 
 .postlist-item p{
@@ -343,7 +342,7 @@ code {
 
 .postlist-item .post-info{
   padding-top: 15px;
-  border-top: 1px solid var(--line);
+  border-top: 1px dashed var(--line);
   width: 100%;
 }
 
