@@ -9,7 +9,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
-  --purple: #6658b4;
+  --purple: #9490d3;
   --line: #ebe0df;
 }
 
@@ -99,11 +99,11 @@ h2{
 /* Button */
 button{
   padding: 12px 25px;
-  background-color: #eaeaf8;
+  background-color: #2b2b2b;
   border: none;
   border-radius: 3px;
-  color: var(--purple);
-  font-weight: 600;
+  color: #fff;
+  font-weight: 400;
   font-size: 0.78rem;
   transition: all 0.2s;
   display: flex;
@@ -118,11 +118,11 @@ button img{
   width: 12px;
   transition: opacity 0.2s;
   margin-bottom: 1px;
+  filter: brightness(10);
 }
 
 button:hover{
-  background-color: #f3f1fd;
-  border: 1px solid #d6cff0;
+  background-color: #3b3b3b;
 }
 
 .button-margin{
@@ -295,7 +295,7 @@ code {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #755BC0;
+  background-color: var(--purple);
   transform: translateY(1px);
   position: absolute;
   bottom: 0;
@@ -322,7 +322,7 @@ code {
 }
 
 .postlist-link:hover{
-  color: #8070ce;
+  color: var(--purple);
 }
 
 .postlist-item p{
@@ -342,7 +342,7 @@ code {
 
 .postlist-item .post-info{
   padding-top: 15px;
-  border-top: 1px dashed var(--line);
+  border-top: 1px solid var(--line);
   width: 100%;
 }
 
@@ -428,7 +428,7 @@ time{
 }
 
 .thank-you-note{
-  font-size: 1.1rem!important;
+  font-size: 1.03rem!important;
 }
 
 .heading-no-margin{
