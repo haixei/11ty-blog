@@ -317,7 +317,7 @@ code {
 
 .postlist-link{
   font-size: 1.4rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   transition: color 0.2s;
   font-weight: 300;
 }
@@ -477,7 +477,7 @@ input:focus, textarea:focus{
   border-color: var(--purple);
   outline: none;
   color: var(--purple);
-  background-color: #fdfdff;
+  background-color: #fbfbff;
 }
 input::placeholder, textarea::placeholder{
   color: #bebebe;
