@@ -223,7 +223,7 @@ header a, header span{
   border-radius: 3px;
   background-color: #333;
   margin-right: 15px;
-  background-image: url("/img/images/avatar.jpg");
+  background-image: url("/img/images/avatar.webp");
   background-position: center;
   background-size: cover;
 }
