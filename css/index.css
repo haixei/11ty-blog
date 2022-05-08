@@ -9,7 +9,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
-  --purple: #9490d3;
+  --purple: #918be4;
   --line: #ebe0df;
 }
 
@@ -188,6 +188,7 @@ header a, header span{
 
 .logo img{
   width: 15px;
+  height: 15px;
 }
 
 .author a:first-of-type{
@@ -243,7 +244,7 @@ footer span:first-of-type{
 }
 
 .purple-link{
-  color: var(--purple);
+  color: #8f8ada;
   border-bottom: 1px solid var(--purple);
   transition: opacity 0.2s;
 }
@@ -473,9 +474,10 @@ textarea{
   line-height: 1.6rem;
 }
 input:focus, textarea:focus{
-  border-color: #cec8ee;
+  border-color: var(--purple);
   outline: none;
   color: var(--purple);
+  background-color: #fdfdff;
 }
 input::placeholder, textarea::placeholder{
   color: #bebebe;
